@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Hello from Rails!</title>
+  </head>
+  <body>
+    <h1>Hello from Rails!</h1>
+    <p>It is now <%=@time%></p>
+    <p> Time to say
+      <%= link_to "goodbye", say_godbye_path %>
+    <!-- Time to say <a href="/say/godbye">goodbye</a> -->
+    !</p>
+  </body>
+</html>
+<!-- <p>Find me in app/views/say/hello.html.erb</p> -->
